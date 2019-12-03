@@ -106,7 +106,7 @@ export default {
                 alert('Select an employee')
                 return
             }
-            this.$services.laprops.assignLaptop(this.laptop.id, this.selectedEmployee).then( () => {
+            this.$services.laptops.assignLaptop(this.laptop.id, this.selectedEmployee).then( () => {
 
             })
         },
